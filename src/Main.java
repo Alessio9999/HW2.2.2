@@ -9,5 +9,6 @@ public class Main {
         Transport[] transports = new Transport[]{bicycle, car, truck};
         ServiceStation serviceStation = new ServiceStation(transports);
         serviceStation.checkAll();
+
     }
 }
